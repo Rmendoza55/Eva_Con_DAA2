@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Ec32023Application<ec3_2023>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sistemas.examenes3.ec3_2023.Ec32023Application",
+            "projectName": "ec3_2023",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

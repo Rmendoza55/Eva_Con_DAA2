@@ -1,6 +1,6 @@
 package com.sistemas.examenes3.ec3_2023.models;
 
-import javax.annotation.Generated;
+
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -24,4 +24,36 @@ public class UsuarioRol {
 
     @ManyToOne()
     private Rol rol;
+
+    //Generamos el Constructor
+    public UsuarioRol() {
+    }
+
+    //Generamos los metodos Getter and Setter
+    public Long getUsuarioRolId() {
+        return usuarioRolId;
+    }
+
+    public void setUsuarioRolId(Long usuarioRolId) {
+        this.usuarioRolId = usuarioRolId;
+    }
+
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+
+    public Rol getRol() {
+        return rol;
+    }
+
+    public void setRol(Rol rol) {
+        this.rol = rol;
+    }
+
+    
+    
 }
